@@ -6,7 +6,7 @@ html {
 
 .container {
   text-align: center;
-  height: 100%;   /* changed from 100% to auto to add padding to bottom */
+  height: 100%;  
   padding: 16px;
   box-sizing: border-box;
 
