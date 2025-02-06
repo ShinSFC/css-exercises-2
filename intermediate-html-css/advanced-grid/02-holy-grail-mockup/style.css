@@ -34,7 +34,8 @@
 }
 
 .menu ul {
-  display: grid;
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr); 
 }
 
 .sidebar {
