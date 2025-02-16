@@ -41,7 +41,7 @@
 
 .sidebar {
   background-color: #C50208;
-  grid-area: 2 / 1 / 2 / 2;               /* added */
+  grid-area: 2 / 1 / 3 / 2;               /* added */
 }
 
 .sidebar .photo {
@@ -69,8 +69,14 @@
   text-transform: uppercase;
 }
 
+.nav ul {
+  display: inline-grid;                   /* added */
+  grid-template-columns: repeat(3, 1fr);  /* added */
+}
+
 .article {
   background-color: #bccbde;
+
 }
 
 .article p {
