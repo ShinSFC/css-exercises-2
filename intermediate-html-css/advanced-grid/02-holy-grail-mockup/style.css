@@ -72,6 +72,7 @@
 .nav ul {
   display: inline-grid;                   /* added */
   grid-template-columns: repeat(3, 1fr);  /* added */
+  list-style-type: none;
 }
 
 .article {
